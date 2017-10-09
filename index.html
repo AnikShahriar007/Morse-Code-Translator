@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Morse Code Translator </title>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<link rel = "stylesheet" type = "text/css" href = "Morse_Code_Translator.css">
+		
+		<script src = "Morse_Code_Translator.js"></script>
+	</head>
+	<body>
+		<br><br>
+		<div id = "total-container">
+		<nav>
+			<a href = "index.html" title = "Home" id = "home"> Home </a>
+			<a href = "" title = "News"> News </a>
+			<a href = "" title = "Contact"> Contact </a>
+			<!--
+			<span class = "drop"><a href = "javascript:void(0);" class = "dropbtn"> More Websites 
+				<div class = "dropmenu">
+					<a href = "">Anik's Recipe Book</a>
+					<a href = "">Numeric Value Converter</a>
+				</div>
+			</a></span>
+			-->
+			<a href = "https://www.facebook.com/omio.ahmed.5" title = "Visit Author's Facebook Page"> Facebook </a>
+			<a href = "morseList.html" title = "Morse Code List"> Morse Code List </a>
+		</nav>			
+		<div id = "main-container">
+		<div id = "container">
+			<br>
+			<h1 style = "margin-top: 2px"> MORSE CODE TRANSLATOR </h1>
+			<br>
+			<fieldset>
+			<legend id = "field-leg"> Translate A Message </legend>
+			<legend class = "label">Input:</legend>
+			<textarea type = "text" name = "NormalorMorse" id = "normalOrMorse" placeholder = "Type your message here, either normal letters, numbers and punctuation or Morse code using '.' for a dot, '-' for a dash, separating letters by spaces and words by '/'." required></textarea>
+			<p id = "error"></p>
+			<br>
+			<legend class = "label">Output:</legend>
+			<textarea id = "result" title = "Translated Message Appears Here" disabled>The translated message appears here. </textarea>
+			<br><br>
+			<button id = "translate" OnClick = "check()" title = "Translate">TRANSLATE</button>
+			<button id = "reset" onClick = "reset()" title = "Reset"> RESET </button>
+			</fieldset>
+			<br>
+			<!--
+			<a href = "morseList.html" id = "list" target = "_blank" title = "Morse Code List">Morse Code List</a>
+			-->
+			<br>
+		</div>
+		</div>
+		<footer> Copyright &copy; <a href = "author.html" title = "Learn About Author" target = "_blank">Anik Shahriar</a>, 2017 </footer>
+		</div>
+	</body>
+</html>

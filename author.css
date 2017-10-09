@@ -1,0 +1,13 @@
+body{
+	background: #ddd;
+}
+#main-container{
+	background: rgb(245, 245, 245);
+	width: 60%;
+	margin: auto;
+	padding: 10px;
+}
+p{
+	text-align: justify;
+}
+
